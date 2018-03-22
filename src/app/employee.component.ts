@@ -9,7 +9,7 @@ export class EmployeeComponent {
   @Input() employees: Employee[] = [];
   @Output() select = new EventEmitter();
 
-  heading = 'Employee';
+  heading = 'Employees';
 
   selectEmployee(employee: Employee) {
     this.select.emit(employee);
