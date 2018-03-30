@@ -2,7 +2,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Employee } from './interfaces';
 
 @Component({
-  selector: 'employee',
+  selector: 'employee-base',
   template: ''
 })
 export class EmployeeComponent {
