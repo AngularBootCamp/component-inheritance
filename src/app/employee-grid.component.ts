@@ -6,4 +6,4 @@ import { EmployeeComponent } from './employee.component';
   selector: 'employee-grid',
   templateUrl: './employee-grid.component.html'
 })
-export class EmployeeGridComponent extends EmployeeComponent { }
+export class EmployeeGridComponent extends EmployeeComponent {}

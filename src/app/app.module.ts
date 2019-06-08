@@ -16,4 +16,4 @@ import { EmployeeComponent } from './employee.component';
   imports: [BrowserModule],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
