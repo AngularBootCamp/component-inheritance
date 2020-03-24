@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { Employee } from './interfaces';
 
-const data = [
+const employees = [
   {
     id: 1,
     first_name: 'Henry',
@@ -59,7 +59,7 @@ const data = [
 })
 export class AppComponent {
   showList = true;
-  myEmployees: Employee[] = data;
+  myEmployees: Employee[] = employees;
 
   toggleView() {
     this.showList = !this.showList;
