@@ -2,7 +2,7 @@
 
 <ul class="collection">
   <li *ngFor="let e of employees" class="collection-item">
-    <h5 class="left">{{ e.first_name }} {{ e.last_name }}</h5>
+    <h5 class="left">{{ e.firstName }} {{ e.lastName }}</h5>
     <button (click)="selectEmployee(e)" class="btn right">
       Select
     </button>
