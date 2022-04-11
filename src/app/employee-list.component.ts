@@ -7,5 +7,5 @@ import { EmployeeComponent } from './employee.component';
   templateUrl: './employee-list.component.html'
 })
 export class EmployeeListComponent extends EmployeeComponent {
-  heading = 'Employee List';
+  override heading = 'Employee List';
 }

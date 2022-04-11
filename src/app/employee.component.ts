@@ -13,11 +13,11 @@ import { Employee } from './interfaces';
 })
 export class EmployeeComponent {
   @Input() employees: Employee[] = [];
-  @Output() select = new EventEmitter();
+  @Output() selectEmp = new EventEmitter();
 
   heading = 'Employees';
 
   selectEmployee(employee: Employee) {
-    this.select.emit(employee);
+    this.selectEmp.emit(employee);
   }
 }

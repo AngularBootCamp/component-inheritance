@@ -7,11 +7,11 @@
 
 <employee-list
   [employees]="myEmployees"
-  (select)="logEmployee($event)"
+  (selectEmp)="logEmployee($event)"
   *ngIf="showList"
 ></employee-list>
 <employee-grid
   [employees]="myEmployees"
-  (select)="logEmployee($event)"
+  (selectEmp)="logEmployee($event)"
   *ngIf="!showList"
 ></employee-grid>

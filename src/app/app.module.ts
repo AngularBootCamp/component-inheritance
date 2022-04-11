@@ -10,8 +10,8 @@ import { EmployeeComponent } from './employee.component';
   declarations: [
     AppComponent,
     EmployeeComponent,
-    EmployeeListComponent,
-    EmployeeGridComponent
+    EmployeeGridComponent,
+    EmployeeListComponent
   ],
   imports: [BrowserModule],
   bootstrap: [AppComponent]
