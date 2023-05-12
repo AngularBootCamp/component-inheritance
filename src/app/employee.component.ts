@@ -8,7 +8,7 @@ import {
 import { Employee } from './interfaces';
 
 @Component({
-  selector: 'employee-base',
+  selector: 'app-employee-base',
   template: ''
 })
 export class EmployeeComponent {
