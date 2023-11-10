@@ -9,7 +9,8 @@ import { Employee } from './interfaces';
 
 @Component({
   selector: 'app-employee-base',
-  template: ''
+  template: '',
+  standalone: true
 })
 export class EmployeeComponent {
   @Input() employees: Employee[] = [];

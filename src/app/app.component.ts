@@ -1,5 +1,8 @@
+import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 
+import { EmployeeGridComponent } from './employee-grid.component';
+import { EmployeeListComponent } from './employee-list.component';
 import { Employee } from './interfaces';
 
 const employees = [
@@ -55,7 +58,9 @@ const employees = [
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
+  standalone: true,
+  imports: [NgIf, EmployeeListComponent, EmployeeGridComponent]
 })
 export class AppComponent {
   showList = true;
