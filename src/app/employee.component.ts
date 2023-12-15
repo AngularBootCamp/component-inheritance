@@ -13,7 +13,7 @@ import { Employee } from './interfaces';
   standalone: true
 })
 export class EmployeeComponent {
-  @Input() employees: Employee[] = [];
+  @Input({ required: true }) employees!: Employee[];
   @Output() selectEmp = new EventEmitter();
 
   heading = 'Employees';

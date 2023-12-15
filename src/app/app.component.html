@@ -5,10 +5,10 @@
   [employees]="myEmployees"
   (selectEmp)="logEmployee($event)"
   *ngIf="showList"
-></app-employee-list>
+/>
 
 <app-employee-grid
   [employees]="myEmployees"
   (selectEmp)="logEmployee($event)"
   *ngIf="!showList"
-></app-employee-grid>
+/>
