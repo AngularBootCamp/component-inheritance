@@ -1,4 +1,3 @@
-import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 import { EmployeeComponent } from './employee.component';
@@ -7,7 +6,6 @@ import { EmployeeComponent } from './employee.component';
   selector: 'app-employee-grid',
   templateUrl: './employee-grid.component.html',
   styleUrl: './employee-grid.component.scss',
-  standalone: true,
-  imports: [NgFor]
+  standalone: true
 })
 export class EmployeeGridComponent extends EmployeeComponent {}

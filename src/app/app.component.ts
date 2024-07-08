@@ -1,4 +1,3 @@
-import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 
 import { EmployeeGridComponent } from './employee-grid.component';
@@ -60,7 +59,7 @@ const employees = [
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: true,
-  imports: [NgIf, EmployeeListComponent, EmployeeGridComponent]
+  imports: [EmployeeListComponent, EmployeeGridComponent]
 })
 export class AppComponent {
   showList = true;
